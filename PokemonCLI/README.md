@@ -1,9 +1,5 @@
 # PokemonCLI
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/PokemonCLI`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: This gem lets you search and get information on different pokemon. The API is using a gem that makes the API easier to use. It pulls information from the API site into nested hash. Then it takes that hash and creates objects in order to better call on the data. Finally, in the CLI it is fully built out so that way all you have to do is interpolate the data into a string to present it to the user. Then it runs a "edited_display" to basically have you pick another selection.
 
 ## Development
 
