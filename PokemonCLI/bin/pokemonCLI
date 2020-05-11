@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require "bundler/setup"
-require "PokemonCLI"
-
-PokemonCLI::CLI.new.start
